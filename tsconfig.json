@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["dom","es2015"],
+    "outDir": "dist/"
+  },
+  "include": [
+    "src/ag-grid.utils.ts"
+  ]
+}

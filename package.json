@@ -1,0 +1,28 @@
+{
+  "name": "ag-grid-testing",
+  "version": "0.0.1",
+  "description": "ag-Grid Protractor Testing Utilities",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "webdriver-manager update",
+    "tsc": "tsc",
+    "test": "npm run tsc && protractor e2e.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanlandsman/ag-grid-testing.git"
+  },
+  "author": "Sean Landsman <sean@thelandsmans.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanlandsman/ag-grid-testing/issues"
+  },
+  "homepage": "https://github.com/seanlandsman/ag-grid-testing#readme",
+  "devDependencies": {
+    "@types/jasmine": "2.5.x",
+    "@types/selenium-webdriver": "3.0.x",
+    "protractor": "5.1.x",
+    "typescript": "2.2.x",
+    "webdriver-manager": "12.0.x"
+  }
+}
