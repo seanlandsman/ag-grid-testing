@@ -9,8 +9,8 @@ export let log = function (message: string): void {
 
 export let getCssSelectorForRowAndCol = function (row: number, col: string, additionalSelector?: string) {
     additionalSelector = additionalSelector || '';
-    log(`selector: div[row="${row}"] div[colid="${col}"] ${additionalSelector}`);
-    return `div[row="${row}"] div[colid="${col}"] ${additionalSelector}`;
+    log(`selector: div[row-id="${row}"] div[col-id="${col}"] ${additionalSelector}`);
+    return `div[row-id="${row}"] div[col-id="${col}"] ${additionalSelector}`;
 };
 
 export let getLocatorForCell = function (row: number, col: string, additionalSelector?: string): By {

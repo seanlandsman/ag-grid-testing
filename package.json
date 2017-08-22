@@ -1,6 +1,6 @@
 {
   "name": "ag-grid-testing",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ag-Grid Protractor Testing Utilities",
   "main": "index.js",
   "scripts": {

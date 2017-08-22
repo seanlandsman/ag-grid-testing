@@ -8,8 +8,8 @@ exports.log = function (message) {
 };
 exports.getCssSelectorForRowAndCol = function (row, col, additionalSelector) {
     additionalSelector = additionalSelector || '';
-    exports.log("selector: div[row=\"" + row + "\"] div[colid=\"" + col + "\"] " + additionalSelector);
-    return "div[row=\"" + row + "\"] div[colid=\"" + col + "\"] " + additionalSelector;
+    exports.log("selector: div[row-id=\"" + row + "\"] div[col-id=\"" + col + "\"] " + additionalSelector);
+    return "div[row-id=\"" + row + "\"] div[col-id=\"" + col + "\"] " + additionalSelector;
 };
 exports.getLocatorForCell = function (row, col, additionalSelector) {
     return protractor_1.by.css(exports.getCssSelectorForRowAndCol(row, col, additionalSelector));
